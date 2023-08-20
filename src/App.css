@@ -1,4 +1,9 @@
 /* header */
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* padding: 20px; */
+}
 .header {
   background-color: blueviolet;
   display: flex;
@@ -35,7 +40,6 @@
   text-decoration: underline;
 }
 /* header icons */
-
 .cart, .person, .search {
   width: 40px;
   border: 1px solid black;
