@@ -13,13 +13,13 @@ export default function Header() {
         <header className="header">
             <h1 className="logo">atlas</h1>
             <nav className="menu">
-                <ul className="link">
-                    <List listName="DNA" /> 
-                    <List listName="Microbiome" /> 
-                    <List listName="Partner with us" /> 
-                    <List listName="About Atlas" /> 
-                    <List listName="FAQ" /> 
-                    <List listName="Upload" /> 
+                <ul className="links">
+                    <List listName="DNA" />
+                    <List listName="Microbiome" />
+                    <List listName="Partner with us" />
+                    <List listName="About Atlas" />
+                    <List listName="FAQ" />
+                    <List listName="Upload" />
                 </ul>
             </nav>
         </header>
