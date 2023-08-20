@@ -26,8 +26,8 @@ export default function Header() {
             </div>
             <div className="part2">
                 <img src="cart.png" alt="cart" className="cart"/>
-                <img src="person.png" alt="cart" className="person"/>
-                <img src="search.png" alt="cart" className="search"/>
+                <img src="person.png" alt="person" className="person"/>
+                <img src="search.png" alt="search" className="search"/>
             </div>
         </header>
     );
