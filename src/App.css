@@ -1,10 +1,12 @@
+/* header */
 .header {
   background-color: blueviolet;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
 }
-.header .menu {
+.header .part1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +15,7 @@
   padding: 20px;
 }
 .logo {
-  font-size: 35px;
+  font-size: 25px;
   color: white;
 }
 .menu .links {
@@ -23,7 +25,7 @@
 .menu .links .list {
   padding: 10px 30px;
   list-style-type: none;
-  font-size: 15px;
+  font-size: 14px;
 }
 .link {
   text-decoration: none;
@@ -31,4 +33,24 @@
 }
 .link:hover {
   text-decoration: underline;
+}
+/* header icons */
+
+.cart, .person, .search {
+  width: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 5px;
+  transition: .3s;
+  cursor: pointer;
+  margin: 5px;
+}
+.cart:hover {
+  background-color: aqua;
+}
+.person:hover {
+  background-color: aqua;
+}
+.search:hover {
+  background-color: aqua;
 }

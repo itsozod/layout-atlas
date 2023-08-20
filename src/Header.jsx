@@ -11,6 +11,7 @@ List.propTypes = {
 export default function Header() {
     return (
         <header className="header">
+            <div className="part1">
             <h1 className="logo">atlas</h1>
             <nav className="menu">
                 <ul className="links">
@@ -22,6 +23,12 @@ export default function Header() {
                     <List listName="Upload" />
                 </ul>
             </nav>
+            </div>
+            <div className="part2">
+                <img src="cart.png" alt="cart" className="cart"/>
+                <img src="person.png" alt="cart" className="person"/>
+                <img src="search.png" alt="cart" className="search"/>
+            </div>
         </header>
     );
 }
