@@ -48,7 +48,7 @@ export default function Header() {
         </p>
       </div>
       <div className="mask">
-        <img src="masked.png" alt="masked" />
+        <img src="masked.png" alt="masked" className="mask-img"/>
       </div>
     </header>
   );

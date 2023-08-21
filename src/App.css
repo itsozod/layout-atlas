@@ -46,18 +46,22 @@
 .link:hover {
   text-decoration: underline;
 }
-.big-part {
-  padding: 10px 35px;
+.main-big-part {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.blog, .health {
+.big-part {
+  padding: 10px 35px;
+  display: flex;
+  flex-direction: column;
+}
+.blog,
+.health {
   color: white;
 }
 .blog {
-  font-size: 55px;
+  font-size: 45px;
   margin-bottom: 10px;
 }
 .answer {
@@ -80,12 +84,14 @@
   margin-bottom: 20px;
 }
 /* header icons */
-.cart, .person, .search {
+.cart,
+.person,
+.search {
   width: 40px;
   border: 1px solid black;
   border-radius: 50%;
   padding: 5px;
-  transition: .3s;
+  transition: 0.3s;
   cursor: pointer;
   margin: 5px;
 }
@@ -101,6 +107,7 @@
 /* masked image */
 .mask {
   position: absolute;
+  align-items: center;
   top: 80%;
   left: 80%;
   transform: translate(-50%, -50%);
