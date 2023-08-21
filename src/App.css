@@ -3,7 +3,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-/* header */
+/* header component*/
 .header {
   background-color: blueviolet;
   display: flex;
@@ -13,6 +13,7 @@
 .container {
   display: flex;
   margin-top: -10px;
+  padding: 10px 20px;
 }
 .link-part {
   display: flex;
@@ -63,7 +64,7 @@
 .search:hover {
   background-color: aqua;
 }
-/* off sale */
+/* sale component */
 .mainSale {
   background-color: yellow;
   display: flex;
@@ -104,7 +105,7 @@
   background-color: red;
 }
 .big-part {
-  padding: 10px 20px;
+  padding: 10px 35px;
   display: flex;
   flex-direction: column;
 }
@@ -133,4 +134,21 @@
 }
 .health {
   margin-bottom: 20px;
+}
+
+/* dna component */
+.dna-container {
+  background-color: white;
+  display: flex;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+.dna-card {
+  border: 1px solid lightgrey;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 15px 5px;
+}
+.grey {
+  color: lightgray;
 }
