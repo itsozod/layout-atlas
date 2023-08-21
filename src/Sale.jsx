@@ -11,7 +11,7 @@ export default function Sale() {
       {showComponent && (
         <div className="mainSale">
           <div className="off-sale">
-            <img src="sun.png" alt="sun" className="sun" />
+            <img src="sunny.png" alt="sun" className="sun" />
             <p className="off-parag">
               <b>-40% OFF Sale</b> on Atlas tests with promo code
               &#039;atlas2023&#039;

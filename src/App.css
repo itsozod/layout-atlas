@@ -78,7 +78,11 @@
   flex: 1 1 auto;
 }
 .sun {
-  width: 50px;
+  width: 45px;
+  object-fit: cover;
+}
+.off-parag {
+  margin-left: 20px;
 }
 .buy {
   background-color: black;
