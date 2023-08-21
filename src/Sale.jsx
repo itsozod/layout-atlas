@@ -1,14 +1,14 @@
 import { useState } from "react";
 export default function Sale() {
-  const [showComponent, setShowComponent] = useState(true);
+  const [prev, setState] = useState(true);
 
   const deleteComponent = () => {
-    setShowComponent(!showComponent);
+    setState((prev) => !prev);
     console.log("Component is deleted");
   };
   return (
     <>
-      {showComponent && (
+      {prev && (
         <div className="mainSale">
           <div className="off-sale">
             <img src="sunny.png" alt="sun" className="sun" />
