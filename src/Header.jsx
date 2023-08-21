@@ -47,6 +47,9 @@ export default function Header() {
           affect at your health
         </p>
       </div>
+      <div className="mask">
+        <img src="masked.png" alt="masked" />
+      </div>
     </header>
   );
 }
