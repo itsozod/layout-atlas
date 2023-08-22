@@ -1,17 +1,24 @@
-import propTypes from "prop-types";
-function List({ listName }) {
+function List() {
+  const links = [
+    "DNA",
+    "Micribiome",
+    "Partner with us",
+    "About atlas",
+    "FAQ",
+    "Upload",
+  ];
   return (
-    <li className="list">
-      <a href="#" className="link">
-        {listName}
-      </a>
-    </li>
+    <ul className="links">
+      {links.map((link) => (
+        <li className="list" key={link}>
+          <a href="#" className="link">
+            {link}
+          </a>
+        </li>
+      ))}
+    </ul>
   );
 }
-
-List.propTypes = {
-  listName: propTypes.string.isRequired,
-};
 
 export default function Header() {
   return (
@@ -20,14 +27,7 @@ export default function Header() {
         <div className="link-part">
           <h1 className="logo">atlas</h1>
           <nav className="menu">
-            <ul className="links">
-              <List listName="DNA" />
-              <List listName="Microbiome" />
-              <List listName="Partner with us" />
-              <List listName="About Atlas" />
-              <List listName="FAQ" />
-              <List listName="Upload" />
-            </ul>
+            <List />
           </nav>
         </div>
         <div className="icon-part">
@@ -48,7 +48,7 @@ export default function Header() {
         </p>
       </div>
       <div className="mask">
-        <img src="masked.png" alt="masked" className="mask-img"/>
+        <img src="masked.png" alt="masked" className="mask-img" />
       </div>
     </header>
   );
