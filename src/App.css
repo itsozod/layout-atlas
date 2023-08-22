@@ -156,3 +156,21 @@
 .delete:hover {
   background-color: red;
 }
+/* dna component */
+.dna-container {
+  position: relative;
+  background-color: white;
+  display: flex;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+.dna-card {
+  border: 1px solid lightgrey;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 15px 5px;
+  cursor: pointer;
+}
+.grey {
+  color: lightgray;
+}
