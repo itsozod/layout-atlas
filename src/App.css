@@ -175,3 +175,13 @@
 .grey {
   color: lightgray;
 }
+/* urban component */
+.urban-container {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  padding: 10px 30px;
+}
+.urban-img {
+  max-width: 100%;
+}
