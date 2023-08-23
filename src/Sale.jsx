@@ -8,7 +8,7 @@ const getLocalStorage = () => {
   } else {
     return true;
   }
-}
+};
 export default function Sale() {
   const [prev, setState] = useState(getLocalStorage());
 
