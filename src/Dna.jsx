@@ -12,8 +12,8 @@ function Cards() {
 
 export default function Dna() {
   return (
-    <>
-      <Cards />
+    <> 
+    <Cards />
     </>
   );
 }

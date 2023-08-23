@@ -9,8 +9,10 @@ function App() {
     <>
       <Sale />
       <Header />
-      <Dna />
-      <Urban />
+      <main id="main">
+        <Dna />
+        <Urban />
+      </main>
     </>
   );
 }
