@@ -1,11 +1,26 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+const getLocalStorage = () => {
+  let prevData = localStorage.getItem("myPrev");
+
+  if (prevData) {
+    return JSON.parse(localStorage.getItem("myPrev"));
+  } else {
+    return true;
+  }
+}
 export default function Sale() {
-  const [prev, setState] = useState(true);
+  const [prev, setState] = useState(getLocalStorage());
 
   const deleteComponent = () => {
     setState((prev) => !prev);
     console.log("Component is deleted");
   };
+
+  useEffect(() => {
+    localStorage.setItem("myPrev", JSON.stringify(prev));
+  }, [prev]);
+
   return (
     <>
       {prev && (
@@ -20,10 +35,10 @@ export default function Sale() {
           </div>
           <div className="delete-container">
             <img
-              onClick={deleteComponent}
               src="delete-btn.png"
               alt="delete"
               className="delete"
+              onClick={deleteComponent}
             />
           </div>
         </div>
