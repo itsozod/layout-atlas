@@ -241,10 +241,13 @@
 .detail {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 50px;
   border-bottom: 2px solid lightgray;
   padding-bottom: 20px;
+}
+.detail:nth-child(5) {
+  border-bottom: none;
 }
 .number {
   margin-right: 10px;
