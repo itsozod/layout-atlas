@@ -38,7 +38,7 @@ export default function Header() {
       </div>
       <div className="big-part">
         <h1 className="blog">
-          More <span className="answer">answers</span> to your <br></br>{" "}
+          More <span className="answer">answers</span> to your<br></br>{" "}
           <span className="question">questions</span> in our blog
         </h1>
 
