@@ -2,6 +2,7 @@ export const imageCards = [
   {
     id: 0,
     img: "microbal.png",
+    absoluteImg: 'supply.png',
     alt: "card",
     name1: "Ожирение ч. 2: риски,",
     name2: "генетика, и лечение",
@@ -10,6 +11,7 @@ export const imageCards = [
   {
     id: 1,
     img: "obese.png",
+    absoluteImg: 'genetics.png',
     alt: "card",
     name1: "Ожирение ч. 1: причины",
     name2: "и степени заболевания",
@@ -18,6 +20,7 @@ export const imageCards = [
   {
     id: 2,
     img: "breaking-news.png",
+    absoluteImg: 'supply.png',
     alt: "card",
     name1: "Наследственные",
     name2: "заболевания",
@@ -26,6 +29,7 @@ export const imageCards = [
   {
     id: 3,
     img: "vegetables.png",
+    absoluteImg: 'supply.png',
     alt: "card",
     name1: "Фенилкетонунурия или",
     name2: "кому то нельзя есть много",
@@ -34,6 +38,7 @@ export const imageCards = [
   {
     id: 4,
     img: "fast-food.png",
+    absoluteImg: 'genetics.png',
     alt: "card",
     name1: "Топ-4 продуктов-",
     name2: "афродизиаков",
@@ -42,6 +47,8 @@ export const imageCards = [
   {
     id: 5,
     img: "cleanshot.png",
+    absoluteImg: 'video.png',
+    playBtn: "play-btn.png",
     alt: "card",
     name1: "Почему ДНК-тест сдают",
     name2: "один раз в жизни",
@@ -50,6 +57,7 @@ export const imageCards = [
   {
     id: 6,
     img: "microbal.png",
+    absoluteImg: 'supply.png',
     alt: "card",
     name1: "Ожирение ч. 2: риски,",
     name2: "генетика, и лечение",
@@ -58,6 +66,7 @@ export const imageCards = [
   {
     id: 7,
     img: "obese.png",
+    absoluteImg: 'genetics.png',
     alt: "card",
     name1: "Ожирение ч. 1: причины",
     name2: "и степени заболевания",
@@ -66,6 +75,7 @@ export const imageCards = [
   {
     id: 8,
     img: "breaking-news.png",
+    absoluteImg: 'supply.png',
     alt: "card",
     name1: "Наследственные",
     name2: "заболевания",
