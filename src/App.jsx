@@ -3,6 +3,7 @@ import Sale from "./Sale";
 import Header from "./Header";
 import Dna from "./Dna";
 import Urban from "./Urban";
+import CardContainer from "./Cards";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main id="main">
         <Dna />
         <Urban />
+        <CardContainer />
       </main>
     </>
   );
