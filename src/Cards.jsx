@@ -38,7 +38,9 @@ export default function CardContainer() {
     <div className="main-card-container">
       <Cards />
       <div className="articles-container">
+        <div className="article-para-container">
         <h3 className="article-para">Top articles</h3>
+        </div>
         <Articles />
       </div>
     </div>

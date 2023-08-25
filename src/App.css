@@ -265,5 +265,26 @@
 .absolute-playBtn {
   position: absolute;
   transform: translateY(-135px) translateX(90px);
-
+}
+/* health cards component */
+.health-container {
+  background-color: lightgray;
+}
+.health-para-container {
+  padding: 20px 43px;
+  margin-bottom: -20px;
+}
+.violet-atlas {
+  color: blueviolet;
+}
+.health-cards-container {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  overflow-y: scroll;
+  overflow-y: hidden;
+}
+.health-card {
+  margin: 20px;
+  cursor: pointer;
 }
