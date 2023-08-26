@@ -5,3 +5,34 @@
   padding: 20px 43px;
   margin-bottom: -20px;
 }
+.gut_cards_container {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+.gut_card {
+  margin: 20px;
+  cursor: pointer;
+}
+.gut_card:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: blueviolet;
+  width: 347px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+.gut_img_card {
+  max-width: 100%;
+}
+.violet_card {
+  margin-top: 20px;
+  color: white;
+  padding: 10px 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+.violet_card:nth-child(3) {
+  border-bottom: none;
+}
