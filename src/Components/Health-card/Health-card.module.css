@@ -1,0 +1,22 @@
+/* health cards component */
+.health_container {
+    background-color: lightgray;
+  }
+  .health_para_container {
+    padding: 20px 43px;
+    margin-bottom: -20px;
+  }
+  .violet_atlas {
+    color: blueviolet;
+  }
+  .health_cards_container {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    overflow-y: scroll;
+    overflow-y: hidden;
+  }
+  .health_card {
+    margin: 20px;
+    cursor: pointer;
+  }

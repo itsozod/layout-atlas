@@ -1,10 +1,10 @@
 import "./App.css";
-import Sale from "./Sale";
-import Header from "./Header";
-import Dna from "./Dna";
-import Urban from "./Urban";
-import CardContainer from "./Cards";
-import HealthCard from "./Health-card";
+import Sale from "./Components/Sale/Sale";
+import Header from "./Components/Header/Header";
+import Dna from "./Components/DNA/Dna";
+import Urban from "./Components/Urban/Urban";
+import CardContainer from "./Components/Cards/Cards";
+import HealthCard from "./Components/Health-card/Health-card";
 
 function App() {
   return (

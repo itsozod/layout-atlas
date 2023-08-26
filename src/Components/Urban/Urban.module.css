@@ -1,0 +1,26 @@
+/* urban component */
+.urban_container {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 30px;
+  }
+  .urban_img_container {
+    display: flex;
+    justify-content: center;
+  }
+  .urban_img {
+    max-width: 100%;
+    border-radius: 20px;
+  }
+  .biome_container {
+    padding: 12px;
+  }
+  .biome_h1 {
+    margin-bottom: 20px;
+    padding-top: 10px;
+  }
+  .grey_para {
+    color: grey;
+  }
