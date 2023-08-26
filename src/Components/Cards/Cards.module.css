@@ -54,12 +54,3 @@
   .advice {
     margin-top: 4px;
   }
-  .absolute_img {
-    position: absolute;
-    transform: translateY(-60px);
-    padding: 10px;
-  }
-  .absolute_playBtn {
-    position: absolute;
-    transform: translateY(-135px) translateX(90px);
-  }

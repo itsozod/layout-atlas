@@ -5,10 +5,6 @@ function Cards() {
   const cards = imageCards.map((card) => (
     <div className={styles.card} key={card.id}>
       <img src={card.img} alt={card.alt} className={styles.card_img} />
-      <div className={styles.absolute_container}>
-        <img src={card.absoluteImg} alt="" className={styles.absolute_img} />
-        <img src={card.playBtn} alt="" className={styles.absolute_playBtn} />
-      </div>
       <div className={styles.card_details}>
         <h3 className={styles.card_h3}>
           <span className={styles.span_card1}>{card.name1}</span>

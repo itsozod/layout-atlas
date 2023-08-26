@@ -1,5 +1,5 @@
 import { HealthImages } from "./Health-images";
-import styles from './Health-card.module.css';
+import styles from './Health.card.module.css';
 
 function HealthImageCards() {
     return (

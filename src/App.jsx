@@ -5,6 +5,8 @@ import Dna from "./Components/DNA/Dna";
 import Urban from "./Components/Urban/Urban";
 import CardContainer from "./Components/Cards/Cards";
 import HealthCard from "./Components/Health-card/Health-card";
+import Gut from "./Components/Gut/Gut";
+// import Gut from "./Components/Gut/Gut";
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
         <Urban />
         <CardContainer />
         <HealthCard />
+        <Gut />
       </main>
     </>
   );
