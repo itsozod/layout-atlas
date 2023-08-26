@@ -1,3 +1,4 @@
+import styles from './Sale.module.css';
 import { useState, useEffect } from "react";
 
 const getLocalStorage = () => {
@@ -24,20 +25,20 @@ export default function Sale() {
   return (
     <>
       {prev && (
-        <div className="mainSale">
-          <div className="off-sale">
-            <img src="sunny.png" alt="sun" className="sun" />
-            <p className="off-parag">
+        <div className={styles.mainSale}>
+          <div className={styles.off_sale}>
+            <img src="sunny.png" alt="sun" className={styles.sun} />
+            <p className={styles.off_parag}>
               <b>-40% OFF Sale</b> on Atlas tests with promo code
               &#039;atlas2023&#039;
             </p>
-            <button className="buy">Buy now</button>
+            <button className={styles.buy}>Buy now</button>
           </div>
-          <div className="delete-container">
+          <div className={styles.delete_container}>
             <img
               src="delete-btn.png"
               alt="delete"
-              className="delete"
+              className={styles.delete}
               onClick={deleteComponent}
             />
           </div>
