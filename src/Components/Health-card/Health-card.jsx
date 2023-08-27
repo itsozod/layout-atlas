@@ -10,7 +10,7 @@ function HealthImageCards() {
             <div className={styles.health_cards_container}>
                 {HealthImages.map((HealthImage) => 
                 <div className={styles.health_card} key={HealthImage.id}>
-                    <img src={HealthImage.img} alt="health-image" className={styles.health_img_card}/>
+                    <img src={HealthImage.img} alt={HealthImage.alt} className={styles.health_img_card}/>
                 </div>
                 )}
             </div>

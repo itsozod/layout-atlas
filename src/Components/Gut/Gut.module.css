@@ -36,3 +36,13 @@
 .violet_card:nth-child(3) {
   border-bottom: none;
 }
+.gut_card_para_container {
+  padding: 8px 8px;
+}
+.gut_h3 {
+  margin-top: 5px;
+  margin-bottom: 18px;
+}
+.gut_grey {
+  color: grey;
+}
