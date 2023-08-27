@@ -1,6 +1,6 @@
 import styles from "./Gut.module.css";
 import PropTypes from "prop-types";
-import { GutImages } from "./Gut-images";
+import { gutImages } from "./Gut-images";
 
 function GutCardContainer({ children }) {
   return <div className={styles.gut_cards_container}>{children}</div>;
@@ -12,16 +12,16 @@ GutCardContainer.propTypes = {
 function GutCards() {
   return (
     <GutCardContainer>
-      {GutImages.map((GutImage) => (
-        <div className={styles.gut_card} key={GutImage.id}>
+      {gutImages.map((gutImage) => (
+        <div className={styles.gut_card} key={gutImage.id}>
           <img
-            src={GutImage.img}
-            alt={GutImage.alt}
+            src={gutImage.img}
+            alt={gutImage.alt}
             className={styles.gut_img_card}
           />
           <div className={styles.gut_card_para_container}>
-            <h3 className={styles.gut_h3}>{GutImage.para}</h3>
-            <p className={styles.gut_grey}>{GutImage.grey}</p>
+            <h3 className={styles.gut_h3}>{gutImage.para}</h3>
+            <p className={styles.gut_grey}>{gutImage.grey}</p>
           </div>
         </div>
       ))}
