@@ -11,10 +11,8 @@
   }
   .health_cards_container {
     display: flex;
-    padding: 10px;
-    margin: 10px;
+    padding: 10px 20px;
     overflow-y: scroll;
-    overflow-y: hidden;
   }
   .health_card {
     margin: 20px;
