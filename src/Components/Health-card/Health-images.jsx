@@ -1,4 +1,4 @@
-export const HealthImages = [
+export const healthImages = [
     {
         id: 0, 
         img: 'dna-test.png',

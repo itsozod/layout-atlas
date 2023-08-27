@@ -1,4 +1,4 @@
-export const GutImages = [
+export const gutImages = [
     {
         id: 0, 
         img: 'microbal1.png',
