@@ -1,0 +1,40 @@
+.course_container {
+    background-color: bisque;
+    position: relative;
+}
+.course_para_container {
+    padding: 10px 43px;
+}
+.big_para {
+    margin-bottom: 10px;
+}
+.free_violet {
+    color: blueviolet;
+}
+.small_para, .small_para2 {
+    margin-bottom: 3px;
+    font-size: 18px;
+}
+.absolute_book {
+    position: absolute;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.violet_book {
+    width: 247px;
+}
+.course_cards_container {
+    display: flex;
+    position: relative;
+    padding: 10px 30px;
+}
+.course_card {
+    margin: 18px;
+}
+.course_card_details {
+    margin-top: 10px;
+    padding: 0px 5px;
+}
+.course_detail {
+    color: grey;
+}
