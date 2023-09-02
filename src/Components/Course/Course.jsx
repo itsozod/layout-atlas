@@ -38,7 +38,7 @@ function CourseCards() {
           </div>
         ))}
         <div className={styles.absolute_button_container}>
-            <button className={styles.absolute_button}>All courses</button>
+            <button className={styles.absolute_button}>All coursesgit</button>
         </div>
       </div>
     </div>
