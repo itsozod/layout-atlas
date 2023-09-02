@@ -1,0 +1,59 @@
+.course_container {
+  background-color: bisque;
+  position: relative;
+}
+.course_para_container {
+  padding: 10px 43px;
+}
+.big_para {
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.free_violet {
+  color: blueviolet;
+}
+.small_para,
+.small_para2 {
+  margin-bottom: 3px;
+  font-size: 18px;
+}
+.absolute_book {
+  position: absolute;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.violet_book {
+  width: 247px;
+}
+.course_cards_container {
+  display: flex;
+  position: relative;
+  padding: 10px 30px;
+  width: 100%;
+}
+.course_card {
+  width: 100%;
+  margin: 18px;
+}
+.course_card_img {
+  max-width: 100%;
+}
+.course_card_details {
+  margin-top: 10px;
+  padding: 0px 5px;
+}
+.course_detail {
+  color: grey;
+}
+.absolute_button_container {
+  position: absolute;
+  left: 89%;
+  transform: translateY(-150px);
+}
+.absolute_button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+}

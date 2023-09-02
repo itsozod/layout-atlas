@@ -7,6 +7,7 @@ import CardContainer from "./Components/Cards/Cards";
 import HealthCard from "./Components/Health-card/Health-card";
 import Gut from "./Components/Gut/Gut";
 import Life from "./Components/Life/Life";
+import Course from "./Components/Course/Course";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <HealthCard />
         <Gut />
         <Life />
+        <Course />
       </main>
     </>
   );
